@@ -1,0 +1,20 @@
+h1{
+    color:seagreen;font-size: 8em;
+    font-family:'waltograph42',sans-serif
+}
+h2 {
+    color: blue;font-size: 5em;
+    font-family:'waltograph42', sans-serif;
+}
+
+
+    /* bebas-neue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'waltograph42';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/waltograph42.otf'); /* IE9 Compat Modes */
+    src: url('../fonts/waltograph42.otf');/* IE6-IE8 */
+ 
+  }

@@ -1,6 +1,6 @@
 h1{
     color:seagreen;font-size: 8em;
-    font-family: 'Cinzel'
+    font-family: 'Cinzel', sans-serif;
 }
 /* cinzel-700 - latin */
 @font-face {
