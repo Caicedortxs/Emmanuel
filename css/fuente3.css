@@ -1,13 +1,22 @@
-h1{
-    color:seagreen;font-size: 8em;
-    font-family:'waltograph42',sans-serif
+{
+    margin: 0;
+    padding: 0;
 }
-h2 {
-    color: blue;font-size: 5em;
-    font-family:'waltograph42', sans-serif;
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 12, 66);
+    color: white;
+    height: 100vh;
+    width: 100%;
 }
+label {
+    font-family:'waltograph42',sans-serif ;
+    font-size: 12em;
+    text-align: center;
 
-
+}
     /* bebas-neue-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
