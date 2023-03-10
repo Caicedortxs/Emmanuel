@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
 }
@@ -26,4 +26,4 @@ label {
     src: url('../fonts/waltograph42.otf'); /* IE9 Compat Modes */
     src: url('../fonts/waltograph42.otf');/* IE6-IE8 */
  
-  }
+  } 
