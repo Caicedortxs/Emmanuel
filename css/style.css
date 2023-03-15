@@ -1,5 +1,17 @@
+h1 {
+    font-size: 12em;
+    text-align: center;
+    color: blue;
+}
 h2{
     font-size: 5em;
     color: aqua;
+    text-align: center;
   
+}
+
+h3 {
+    font-size: 4em;
+    text-align: center;
+    color: red;
 }

@@ -1,8 +1,17 @@
-p.font-5em{
+p.font-8em{
     font-size: 5em;
     color: aqua;
+    text-align: center;
 }
     p.font-5em{
         font-size: 5em;
-        color: brown;
+        color: green;
+        text-align: center;
     }
+
+
+h2 {
+    font-size: 5em;
+    color:orange;
+    text-align: center;
+}
