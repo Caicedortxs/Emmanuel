@@ -1,8 +1,9 @@
 .table-box{
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
     height: 100vh;
+
 
 }
 .inicio{
@@ -21,6 +22,7 @@ table {
     color: white;
     font-family: sans-serif;
     border-radius: 20px;
+    
    
     
 }
