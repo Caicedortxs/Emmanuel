@@ -11,9 +11,11 @@
     font-size: 15px;
 }
 th,td{
-    border: transparent 1px solid rgb(64, 64, 64);
+    border:1px solid rgb(64, 64, 64);
     padding: 15px 25px;
     text-align: center;
+    
+    
        
     
 }
