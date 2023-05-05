@@ -74,6 +74,12 @@ padding: 0;
         cursor: pointer;
         background-color: rgb(120, 120, 120);
     }
+    main.menu-block{
+        height: 100vh;
+        background-color: rgb(120, 120, 120);
+        list-style: none;
+        text-align: center;
+    }
   }
   body{
     background-color: #487346;
