@@ -4,5 +4,5 @@ menuBar.addEventListener("click", function(){
     alert("buenos días")
 } )
 
-alert("Bienvenidos a Recildeas, recicla, reutiliza y crea")
+alert("Para muertos de miedo")
 
