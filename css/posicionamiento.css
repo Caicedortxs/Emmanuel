@@ -1,0 +1,42 @@
+.style-box{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.box-direccion{
+    display: flex;
+    flex-direction: right;
+    
+
+    
+}
+.box-1{
+    background-color: blue;
+    position: static;
+}
+.box-2{
+    background-color: aqua;
+    position: fixed;
+    top: 100px ;
+    left: 500px;
+}
+.box-3{
+    background-color: blueviolet;
+    position: absolute;
+    left: 400px;
+    top: 1300px;
+}
+.box-4{
+    background-color: yellow;
+    position: relative;
+    right: 300px;
+    left: 200px;
+    top: 1200px;
+}
