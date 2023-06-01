@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    background-color: rgb(252, 122, 0);
+    height: 70px; 
+}
+ nav ul {
+    background-color: rgb(252, 122, 0);
+    list-style: none;
+    position: absolute;
+    width: 100%;
+}
+nav > ul > li {
+    width: 250px;
+    float: left;
+    font-size: 1.4rem;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+}
+nav > ul {
+    margin-left: 40px;
+}
+ul li {
+    position: relative;
+}
+
+li:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav li li {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s;
+}
+nav li:hover > ul > li {
+    overflow: visible;
+    max-height: 500px;
+    border: 1px solid rgb(255,255,255, .2);
+    transition: all 1s;
+}
+
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
