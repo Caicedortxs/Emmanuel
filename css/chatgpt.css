@@ -1,0 +1,118 @@
+header {
+    background-color: #333; /* Cambiar el color de fondo */
+    color: #fff; /* Cambiar el color del texto */
+    padding: 10px; /* Agregar un espaciado interno */
+  }
+  
+  .logo img {
+    width: 100px; /* Ajustar el tamaño del logo */
+  }
+  
+  .menu ul {
+    list-style: none;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px; /* Agregar espaciado entre los elementos del menú */
+  }
+  
+  .menu li a {
+    color: #fff; /* Cambiar el color de los enlaces */
+    text-decoration: none; /* Quitar subrayado en los enlaces */
+    padding: 5px 10px; /* Agregar espaciado interno en los enlaces */
+    border-radius: 5px; /* Agregar bordes redondeados */
+  }
+  
+  .menu li a:hover {
+    background-color: #555; /* Cambiar el color de fondo al pasar el cursor sobre los enlaces */
+  }
+  .main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajustar el tamaño de las columnas */
+    gap: 20px; /* Agregar espaciado entre los elementos */
+  }
+  
+  .img-principal {
+    background-color: #444; /* Cambiar el color de fondo */
+    background-image: url('ruta/imagen_principal.jpg'); /* Cambiar la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .article {
+    background-color: #f1f1f1; /* Cambiar el color de fondo de los artículos */
+    padding: 20px; /* Agregar espaciado interno en los artículos */
+  }
+  
+  .article h2 {
+    font-size: 1.5em; /* Cambiar el tamaño de los títulos de los artículos */
+  }
+  
+  .article p {
+    line-height: 1.6; /* Ajustar el espaciado entre líneas de los párrafos */
+  }
+  .compra {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajustar el tamaño de las columnas */
+    gap: 20px; /* Agregar espaciado entre los elementos */
+  }
+  
+  .compra-1, .compra-2 {
+    background-color: #ddd; /* Cambiar el color de fondo de los elementos de compra */
+    padding: 20px; /* Agregar espaciado interno en los elementos de compra */
+  }
+  
+  .compra-1 h3, .compra-2 h3 {
+    font-size: 1.2em; /* Cambiar el tamaño de los títulos de los elementos de compra */
+  }
+  
+  .compra-1 p, .compra-2 p {
+    line-height: 1.6; /* Ajustar el espaciado entre líneas de los párrafos de los elementos de compra */
+    color: #555; /* Cambiar el color del texto en los elementos de compra */
+  }
+/* Agregar estilos para el botón del menú en dispositivos móviles */
+.menu input[type="checkbox"] {
+    display: none;
+  }
+  
+  .menu label {
+    display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .menu ul {
+      display: none;
+      text-align: center;
+    }
+  
+    .menu input[type="checkbox"] + label {
+      display: block;
+      font-size: 1.5em;
+      cursor: pointer;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+    }
+  
+    .menu input[type="checkbox"]:checked ~ ul {
+      display: block;
+      background-color: #444;
+      padding: 10px;
+    }
+  
+    .menu li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .menu li:last-child {
+      margin-bottom: 0;
+    }
+  
+    .menu li a {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+        
