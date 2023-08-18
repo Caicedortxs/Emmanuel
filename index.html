@@ -1,51 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recildeas</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="icons/all.css">
-   
-    </div>
-</div>
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/portafolios.css">
+  <title>Emmanuel Caicedo</title>
 </head>
+
 <body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>Emma<span>Production</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Inicio</a></li>
+            <li><a href="#services" data-after="Service">Servicios</a></li>
+            <li><a href="#projects" data-after="Projects">Proyectos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hola, <span></span></h1>
+        <h1>Mi nombre es <span></span></h1>
+        <h1>Emmanuel <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>cios</h1>
+        <p>¡HOLA! Soy un apasionado de la edición de videos, el diseño gráfico, la fotografía y la creación web. Mi enfoque es transformar conceptos en piezas visuales impactantes y funcionales. Desde dar vida a videos cautivadores hasta diseñar gráficos que comunican mensajes claros, capturar momentos memorables con mi cámara y construir sitios web atractivos y accesibles, mi portafolio refleja mi dedicación a la creatividad en todas sus formas. ¡Espero colaborar contigo y llevar tus proyectos al siguiente nivel!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+         
+          <h2>Edicion de Videos</h2>
+          <p>¡Hola! Soy un apasionado editor de videos listo para dar vida a tus ideas. Juntos, transformaremos la grabación en una experiencia visual cautivadora. ¡Vamos a crear algo increíble!</p>
+        </div>
+        <div class="service-item">
+          
+          <h2>Fotografia</h2>
+          <p>¡Hola! Soy un fotógrafo listo para capturar momentos inolvidables a través de mi lente. Juntos, crearemos imágenes que perdurarán para siempre. ¡Vamos a crear recuerdos únicos!</p>
+        </div>
+        <div class="service-item">
+          
+          <h2>Diseñador</h2>
+          <p>¡Saludos! Soy un diseñador creativo dispuesto a convertir tus ideas en diseños impactantes y significativos. Juntos, daremos vida a tus visiones. ¡Empecemos a diseñar!
+
+            :
+          </p>
+        </div>
+        <div class="service-item">
+          <h2>Diseñador web</h2>
+          <p>¡Hola! Soy un diseñador web listo para construir tu presencia en línea. Convierto ideas en sitios web atractivos y funcionales. ¡Comencemos a crear tu espacio en la web!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Proyectos  <span>Recientes</span></h1>
+      </div>
+      <!-- sección trabajos -->
+  <section class="trabajos" id="trabajos">
+    <h2>Mis Proyectos</h2>
+
     <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Menus</a>
-                <ul>
-                    <li><a href="media-query.html">media query</a></li> 
-                    <li><a href="menu-horizontal.html"> Menu horizontal</a></li>   
-                    <li><a href="menu-subitems.html">Subitems</a></li>
-                    <li><a href="menu-subitems2.html">Subitems2</a></li>
-                    <li><a href="calendario.html">Calendario</a></li>  
-                </ul>
-          </li>
-          <li><a href="#">Listas</a>
-            <ul>
-                <li><a href="catalogo.html">Catalogo</a></li>
-                <li><a href="tablas.html">Tabla</a></li>
-                <li><a href="colores.html">Colores</a></li>
-                <li><a href="margenes.html">Margenes</a></li>
-                <li><a href="maquetacion2.html">Maquetacion2</a></li>
-            </ul>
-          </li>
-          <li><a href="maquetacion.html">Maquetacion</a></li>
-          <li><a href="maquetacion2.html">Maquetacion2</a></li>
-          <li><a href="mi-portafolio.html">Portafolio</a></li>
-          <li><a href="flexbox.html">fuentes</a>
-            <ul>
-                <li><a href="fuente1.html">Fuente 1</a></li>
-                <li><a href="fuente2.html">Fuente 2</a>
-                <li><a href="fuente3.html">Fuente 3</a>
-                <ul>
-        </ul>
+        <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+        <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+        <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+        <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a>
     </nav>
-    
+
+    <div class="galeria">
+        <div class="item disenio">
+            <img src="Img/captura 1.png" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item programacion">
+            <img src="Img/captura 2.png" alt="">
+            <div class="info">
+                <h3>Maquetacion</h3>
+                <span>:3</span>
+                <a href="maquetacion.html">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item programacion">
+            <img src="Img/captura 3.png" alt="">
+            <div class="info">
+                <h3>Calendario</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item animaciones">
+            <img src="Img/captura 4.png" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item disenio">
+            <img src="img/captura 6.png" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item animaciones">
+            <img src="img/captura 7.png" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item programacion">
+            <img src="img/captura 8.png" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item disenio">
+            <img src="img/captura 9.png" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item programacion">
+            <img src="img/captura 10.png" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item programacion">
+            <img src="img/netflix.png" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>:3</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- End Projects Section -->
+ 
+
+  
+  <script src="js/style.js"></script>
 </body>
+
 </html>
