@@ -1,4 +1,4 @@
-//Función para filtrar las categorías de los trabajos
+
 function verCategoria(cat){
     const items = document.getElementsByClassName("item");
     for(let i=0; i < items.length;i++){
