@@ -203,15 +203,13 @@ a:hover {
 
 .carousel{
     height: 400px;
-    width: 80%;
+    width: 100%;
     position: relative;
 }
- 
-    
-  
+     
   .wrapper{
     display: flex;
-    max-width: 1200px;
+    max-width: 2000px;
     position: relative;
   }
   .wrapper i{
