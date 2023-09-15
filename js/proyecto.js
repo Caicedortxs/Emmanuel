@@ -53,3 +53,5 @@ document.addEventListener("mousemove", dragging);
 carousel.addEventListener("touchmove", dragging);
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+

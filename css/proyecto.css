@@ -203,7 +203,7 @@ a:hover {
 
 .carousel{
     height: 400px;
-    width: 100%;
+    width: 1900px;
     position: relative;
 }
      
@@ -275,4 +275,12 @@ a:hover {
     }
   }
 
+  .textos {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(173, 173, 173);
+  }
 
+  .textos-1{
+    font-size: 40px;
+  }
