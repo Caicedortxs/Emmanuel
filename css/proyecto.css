@@ -222,10 +222,10 @@ a:hover {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  height: 40vh;
-  width: 90%;
+  height: 400px;
+  width: 1500px;
   align-items: center;
-  background: radial-gradient(circle, rgba(255,255,255,) 0%, rgba(226,226,226,) 110%);
+
   margin-top: 30px;
 }
 h4, h2,small,a{
@@ -291,13 +291,13 @@ a{
 }
 .slick-2{
   position: relative;
-  width: 318px;
+  width: 580px;
   padding: 0 0px;
   float: left;
   box-sizing: border-box;
   display: flex;
-  height: 100%;
-  margin-right: 20px;
+  height: 500px;
+  margin-right: 100px;
 }
 
 .slick h4{
